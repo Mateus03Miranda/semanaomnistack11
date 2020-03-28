@@ -10,6 +10,6 @@ module.exports={
     if(!ong)
       return res.status(400).json({"Error":"The ONG selected doesn't exist!"});
 
-    return res.json({name:ong});
+    return res.json(ong);
   }
 }
